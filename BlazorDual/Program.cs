@@ -8,10 +8,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using BlazorDual.Common;
 
 namespace BlazorDual
 {
-    public class Program
+    public class Program : BlazorDual.Common.Program
     {
         public static void Main(string[] args)
         {
