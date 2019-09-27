@@ -12,7 +12,7 @@ using BlazorDual.Common;
 
 namespace BlazorDual
 {
-    public class Program : BlazorDual.Common.Program
+    public class Program
     {
         public static void Main(string[] args)
         {
@@ -23,7 +23,7 @@ namespace BlazorDual
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<HostedStartup>();
                 });
     }
 }

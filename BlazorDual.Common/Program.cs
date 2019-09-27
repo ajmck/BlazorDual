@@ -1,15 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Blazor.Hosting;
+using System;
+
 
 namespace BlazorDual.Common
 {
-    public class Program
+    public class Program 
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Shared target can not be executed; run WASM or Hosted project.");
+            CreateHostBuilder(args).Build().Run();
         }
+
+        public static IWebAssemblyHostBuilder CreateHostBuilder(string[] args) =>
+            BlazorWebAssemblyHost.CreateDefaultBuilder()
+                .UseBlazorStartup<WasmStartup>();
     }
 }

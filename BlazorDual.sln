@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDual", "BlazorDual\BlazorDual.csproj", "{A1B77208-00C3-47C3-9503-C5E3D83F7488}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDual", "BlazorDual\BlazorDual.csproj", "{A1B77208-00C3-47C3-9503-C5E3D83F7488}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C46E7CEB-52DA-4E38-B784-5B2EB39CB381} = {C46E7CEB-52DA-4E38-B784-5B2EB39CB381}
 	EndProjectSection
@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDual.Common", "BlazorDual.Common\BlazorDual.Common.csproj", "{C46E7CEB-52DA-4E38-B784-5B2EB39CB381}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDual.Common", "BlazorDual.Common\BlazorDual.Common.csproj", "{C46E7CEB-52DA-4E38-B784-5B2EB39CB381}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

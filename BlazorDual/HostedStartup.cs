@@ -13,9 +13,9 @@ using BlazorDual.Common.Data;
 
 namespace BlazorDual
 {
-    public class Startup
+    public class HostedStartup
     {
-        public Startup(IConfiguration configuration)
+        public HostedStartup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
