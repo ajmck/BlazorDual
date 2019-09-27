@@ -1,9 +1,8 @@
-using BlazorDual.Common;
-using BlazorDual.Common.Data;
+using BlazorDual.Data;
 using Microsoft.AspNetCore.Components.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace BlazorDual.Common
+namespace BlazorDual
 {
     public class WasmStartup
     {

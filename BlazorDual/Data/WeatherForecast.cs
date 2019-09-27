@@ -1,6 +1,6 @@
 using System;
 
-namespace BlazorDual.Common.Data
+namespace BlazorDual.Data
 {
     public class WeatherForecast
     {
